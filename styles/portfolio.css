@@ -101,7 +101,10 @@ nav a {
 .banner-description {}
 
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about {
@@ -109,4 +112,14 @@ nav a {
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
 }
